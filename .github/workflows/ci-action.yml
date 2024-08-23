@@ -27,4 +27,4 @@ jobs:
         railway up --service images
 
     - name: Setup database
-      run: railway run --db-images npx prisma migrate deploy
+      run: railway run --service images npx prisma migrate deploy
