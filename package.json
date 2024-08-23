@@ -2,7 +2,6 @@
   "name": "challange-chapter-6",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
   "scripts": {
     "start": "npx prisma generate && node ./bin/www",
     "dev": "nodemon ./bin/www",
