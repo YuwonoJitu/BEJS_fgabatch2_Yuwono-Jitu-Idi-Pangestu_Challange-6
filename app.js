@@ -16,12 +16,6 @@ const app = express();
 app.use(express.json());
 app.use(INDEX_ROUTES);
 
-const PORT = process.env.PORT || 3001;
 
-app.listen(PORT, () => {
-    console.log(`Listening on port ${PORT}`);
-}).on('error', (err) => {
-    console.error('Failed to start server:', err);
-});
 
 module.exports = app;
